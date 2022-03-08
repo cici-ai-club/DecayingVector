@@ -19,7 +19,7 @@ python rtraindecay.py 0 0.5 # train a model with all users except user 0 with de
 python rtraindecay.py 1 0.75 # train a model with all users except user 1 with decaying rate 0.75
 
 ```
-## Test model
+## Test a model
 ```
 python rtestdecay_loov.py 0 0.5  # Test the trained model on user 0 data with decaying rate 0.5 (model trained with the data using other users but not user 0)
 python rtestdecay_loov.py 1 0.75 # Test the trained model on user10 data with decaying rate 0.75 (model trained with the data using other users but not user 1)
