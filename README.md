@@ -9,6 +9,7 @@ A repo where you could train events to cluster
 - **clssave** is the directory contains and the train, test data
 - **mappings.npy** is the mappings which connects word and id and is built in rtraindecay.py
 - **saveres_loov** is the directory stores the all the saving csv after running the the test file. For example, **savepredic_res_confidence0.5all_0.75_1.csv** is the test esult of user 1 under confidence 0.5 from a model traiend using dacaying rate 0.75.
+- **newevents.csv** is the csv which adds the save clusters (column cls) from original events.csv
 ## Split data of newevents.csv into train and test
 ```
 python savedata.py
